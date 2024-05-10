@@ -1,0 +1,52 @@
+.hideshow {
+  position: absolute;
+  right: 23px;
+  top: 34px;
+  font-style: italic;
+}
+.hide {
+  position: relative;
+}
+.filterComponent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  p {
+    margin-bottom: 5px;
+  }
+}
+
+.searchBar {
+  text-align: center;
+}
+
+.filltersUser {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 20px;
+  .filltersTop {
+    width: 100%;
+    display: flex;
+    .ui.icon.labeled.input{
+      width: 50%;
+      margin-right: 20px;
+      &:last-child{
+        margin-right:0px;
+      }
+    }
+  }
+  .filltersBottom {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    .ui.dropdown{
+      margin-right: 20px;
+    }
+    .ui.primary.button{
+      margin-right: 0px;
+    }
+  }
+}
