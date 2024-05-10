@@ -1,0 +1,23 @@
+
+.custom-modal {
+    width: 100% !important; /* Set custom width (adjust as needed) */
+    max-width: 300px; /* Set maximum width */
+    height: 100% !important; /* Set custom height (adjust as needed) */
+    max-height: 200px; /* Set maximum height */
+  }
+  .form-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-container {
+    margin-bottom: 10px; /* Adjust spacing between input fields */
+  }
+  
+  .button-container {
+    margin-top: 10px; /* Adjust spacing between inputs and button */
+    display: flex;
+    justify-content: left;
+  }
+  
+    
