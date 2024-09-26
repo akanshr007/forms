@@ -1,0 +1,40 @@
+.fileUpload_label {
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 16px;
+  margin-bottom: 10px;
+  display: block;
+}
+.fileUpload_block {
+  position: relative;
+  height: 48px;
+  margin-bottom: 10px;
+  border: 2px dashed #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  box-sizing: border-box;
+
+  .inputfileStyle {
+    position: absolute;
+    width: 100%;
+  }
+}
+.dropDown{
+  position: relative;
+  height: 35px;
+  margin-bottom: 10px;
+  border-color: #ccc;
+  border-radius: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
+  width: 50%;
+
+}
+.error-meg {
+  color: red;
+  margin: 10px 7px;
+}
+button.ui.primary.button.bulk_btn {
+  margin-top: 8px;
+}
